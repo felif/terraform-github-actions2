@@ -1,4 +1,4 @@
-terraform {
+fterraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "K21_CI_CD_Bucket" {
-  bucket = "k21-demo-github-action-tf"
+  bucket = "elif_bucket"
 
   object_lock_enabled = false
 

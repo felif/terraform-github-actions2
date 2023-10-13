@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "K21_CI_CD_Bucket" {
-  bucket = "elif_bucket"
+  bucket = "elif_buckettttt"
 
   object_lock_enabled = false
 
